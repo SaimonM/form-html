@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Saimon</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Formulário 🔥</h1>
+        <form>
+            <div>
+                <input type="text" placeholder="Digite seu nome" class="inputs">
+                <span class="span-requerid">Nome deve ter no mínimo 3 caracteres</span>
+            </div>
+            <div>
+                <input type="email" placeholder="Digite seu melhor e-mail" class="inputs">
+                <span class="span-requerid">Digite um e-mail válido</span>
+            </div>
+            <div>
+                <input type="password" placeholder="Senha" class="inputs">
+                <span class="span-requerid">Digite sua senha</span>
+            </div>
+            <div>
+                <input type="password" placeholder="Repita sua senha" class="inputs">
+                <span class="span-requerid">Senhas devem ser compatíveis</span>
+            </div>
+            <textarea name="descricao" id="descrição" cols="25" rows="10" placeholder="Fale um pouco sobre você"></textarea>
+            <p>Gênero</p>
+            <div class="box-selector">
+                <div>
+                    <input type="radio" id="m" value="m" name="genero">
+                    <label for="m">Masculino</label>
+                </div>
+                <div>
+                    <input type="radio" id="f" value="f" name="genero">
+                    <label for="m">Feminino</label>
+                </div>
+                <div>
+                    <input type="radio" id="o" value="o" name="genero">
+                    <label for="m">Outro</label>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
